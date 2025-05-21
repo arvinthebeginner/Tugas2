@@ -32,7 +32,6 @@ class RegisterActivity : AppCompatActivity() {
             if (username.isNotBlank() && password.isNotBlank() && password == confirm) {
                 Toast.makeText(this, "Register berhasil, silakan login", Toast.LENGTH_SHORT).show()
 
-                // Kirim data ke MainActivity (login)
                 val intent = Intent(this, MainActivity::class.java)
                 intent.putExtra("key_fullname", fullname)
                 intent.putExtra("key_username", username)
