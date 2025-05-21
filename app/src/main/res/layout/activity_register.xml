@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main">
+
+    <TextView
+        android:id="@+id/TextFullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Name" />
+
+    <EditText
+        android:id="@+id/editFullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Nama Lengkap"
+        android:minWidth="48dp"
+        android:minHeight="48dp"/>
+
+    <TextView
+        android:id="@+id/TextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"/>
+
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Username"
+        android:minWidth="48dp"
+        android:minHeight="48dp"/>
+
+    <TextView
+        android:id="@+id/TextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Password"
+        android:inputType="textPassword"
+        android:minWidth="48dp"
+        android:minHeight="48dp"/>
+
+    <TextView
+        android:id="@+id/TextConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"/>
+
+    <EditText
+        android:id="@+id/editConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Konfirmasi Password"
+        android:inputType="textPassword"
+        android:minWidth="48dp"
+        android:minHeight="48dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER" />
+</LinearLayout>
