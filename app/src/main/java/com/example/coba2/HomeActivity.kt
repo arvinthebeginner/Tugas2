@@ -12,7 +12,6 @@ class HomeActivity : AppCompatActivity() {
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Ambil nama dari Intent
         val fullName = intent.getStringExtra("key_fullname") ?: "User"
         binding.textWelcome.text = "Welcome, $fullName"
     }
